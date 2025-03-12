@@ -16,7 +16,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="relative z-[999] bg-[#FCEFE4] p-4 shadow-md"> {/* High z-index */}
+    <header className="relative z-[999] bg-[#FCEFE4] p-4 shadow-md">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
         {/* Logo Section */}
         <div className="flex items-center space-x-2 mb-2 md:mb-0">
@@ -24,6 +24,13 @@ export default function Header() {
             <span className="text-white text-base font-medium">B</span>
           </div>
           <h2 className="text-lg font-medium text-[#111111] tracking-wide">RAGIB HASAN</h2>
+        </div>
+
+        {/* Centered Bismillah */}
+        <div className="text-center flex-grow hidden md:block">
+          <h3 className="text-lg font-semibold text-[#9A3412]">
+            بِسْمِ ٱللَّٰهِ الرَّحْمَٰنِ الرَّحِيمِ
+          </h3>
         </div>
 
         {/* Desktop Menu */}
