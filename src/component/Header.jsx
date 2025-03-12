@@ -12,7 +12,7 @@ export default function Header() {
     { name: "تعارف", path: "/about", submenu: [{ name: "Team", path: "/about/team" }, { name: "Vision", path: "/about/vision" }] },
     { name: "بینات", path: "/events", submenu: [{ name: "Upcoming", path: "/events/upcoming" }, { name: "Past", path: "/events/past" }] },
     { name: "دعائیں", path: "/articles" },
-    { name: "کتابیں", path: "/store" },
+    { name: "کتابیں", path: "/books" },
   ];
 
   return (
